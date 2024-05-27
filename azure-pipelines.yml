@@ -48,7 +48,7 @@ stages:
     displayName: 'Deploy job'
     pool:
       vmImage: 'ubuntu-latest'
-    environment: 'Dev'
+    environment: Dev
     variables:
     - group: Release
     strategy:
